@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.logo img{
+    width: 100px;
+    cursor: pointer;
+    margin-left: 40px;
+}
+.row {
+    display: flex;
+    height: 88%;
+    align-items: center;
+}
+.card1{
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-position: center;
+    transition: transform 0.5s;
+}
+.card2{
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-position: center;
+    transition: transform 0.5s;
+}
+.card3{
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-position: center;
+    transition: transform 0.5s;
+}
+.card4{
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-position: center;
+    transition: transform 0.5s;
+}
+.card1:hover{
+    transform: translateY(-10px);
+}
+
+.card2:hover{
+    transform: translateY(-10px);
+}
+.card3:hover{
+    transform: translateY(-10px);
+}
+.card4:hover{
+    transform: translateY(-10px);
+}
+.card5:hover{
+    transform: translateY(-10px);
+}
+.card6:hover{
+    transform: translateY(-10px);
+}
+.card-title {
+    color: white;
+    text-align: center;
+}
+.card5{
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-position: center;
+    transition: transform 0.5s;
+}.card6{
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-position: center;
+    transition: transform 0.5s;
+}

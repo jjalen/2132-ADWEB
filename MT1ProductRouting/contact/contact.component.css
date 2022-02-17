@@ -1,0 +1,30 @@
+* {
+    color: white;
+}
+.mb-3{
+    position: relative;
+}
+.picture img{
+    text-align: center;
+    width: 60%;
+}
+.cota{
+    display: flex;
+}
+.pot{
+    width: 50%;
+    padding-top: 150px;
+}
+.tet{
+    width: 50%;
+    padding-top: 150px;
+    margin: left;
+    
+}
+.text{
+    text-align: justify;
+}
+.btn{
+  margin-left: 45%;
+  margin-top: 10px;
+}

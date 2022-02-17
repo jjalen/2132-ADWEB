@@ -1,0 +1,10 @@
+.lists{
+    display: flex;
+    padding-top: 50px;
+    justify-content: center;
+    gap: 30px;
+}
+.card-text{
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}

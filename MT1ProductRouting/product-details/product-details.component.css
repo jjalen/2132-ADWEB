@@ -1,0 +1,6 @@
+.listss{
+    display: flex;
+    padding-top: 100px;
+    justify-content: center;
+    gap: 30px;
+}
