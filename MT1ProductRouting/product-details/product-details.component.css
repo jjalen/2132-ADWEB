@@ -4,3 +4,8 @@
     justify-content: center;
     gap: 30px;
 }
+.out{
+    margin-top: 200px;
+    text-align: justify;
+    display: block;
+}
