@@ -1,0 +1,40 @@
+<div>
+    <h1>{{ pageTitle }}</h1>
+    <table class="table">
+        <thead>
+          <tr>
+            <th scope="col">ID</th>
+            <th scope="col">Name</th>
+            <th scope="col">Username</th>
+            <th scope="col">Email</th>
+            <th scope="col">Website</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let client of httpusers; let i = index">
+            <th>{{ client.id}}</th>
+            <td>{{ client.name}}</td>
+            <td>{{ client.username }}</td>
+            <td>{{ client.email }}</td>
+            <td>{{ client.website }}</td>
+          </tr>
+        </tbody>
+      </table>
+      <table class="table">
+        <thead>
+          <tr>
+            <th scope="col">ID</th>
+            <th scope="col">Title</th>
+            <th scope="col">Completed</th>
+
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let users of anotherusers; let i = index">
+            <th>{{ users.id}}</th>
+            <td>{{ users.title}}</td>
+            <td>{{ users.completed }}</td>
+          </tr>
+        </tbody>
+      </table>
+</div>
