@@ -1,0 +1,23 @@
+<p>Today's date : {{ todaydate }}</p>
+<div class="other-prod">
+    <div class="out">
+        <div>
+            <h5>ID</h5>
+            <p  *ngFor="let prod of products; let i = index">
+                {{prod.id}}
+            </p>
+        </div>
+        <div>
+            <h5>Product Name</h5>
+            <p  *ngFor="let prod of products; let i = index">
+                {{prod.name}}
+            </p>
+        </div>
+        <div>
+            <h5>Description</h5>
+            <p  *ngFor="let prod of products; let i = index">
+                {{prod.description}}
+            </p>
+        </div>
+    </div>
+</div>
